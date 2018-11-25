@@ -1,0 +1,62 @@
+[33mcommit 6ff90952bb232375dd379ebf4d7b34e33cc36a4f[m
+Author: Charles njau <nlwsolomon@gmail.com>
+Date:   Sun Nov 25 16:49:37 2018 +0300
+
+    pussdf
+
+[1mdiff --git a/ASD.PY b/ASD.PY[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e2c4235[m
+[1m--- /dev/null[m
+[1m+++ b/ASD.PY[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32mimport csv[m
+[32m+[m[32mdef loadCsv(filename):[m
+[32m+[m	[32mlines = csv.reader(open(filename, "rb"))[m
+[32m+[m	[32mdataset = list(lines)[m
+[32m+[m	[32mfor i in range(len(dataset)):[m
+[32m+[m		[32mdataset[i] = [float(x) for x in dataset[i]][m
+[32m+[m	[32mreturn dataset[m
+\ No newline at end of file[m
+
+[33mcommit 584244220c9ab13d482b60ad5574cad107a60585[m
+Author: Charles njau <nlwsolomon@gmail.com>
+Date:   Sun Nov 25 16:41:20 2018 +0300
+
+    dsfssdfsfds
+
+[1mdiff --git a/ReadMe.txt.txt b/ReadMe.txt.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3e2d82c[m
+[1m--- /dev/null[m
+[1m+++ b/ReadMe.txt.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mHello my name is charles and this my git tutorial[m
+[1mdiff --git a/test.js b/test.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..309977e[m
+[1m--- /dev/null[m
+[1m+++ b/test.js[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32mvar a,b,c;[m
+[32m+[m
+[32m+[m[32ma=10;[m
+[32m+[m[32mb=9;[m
+[32m+[m[32mc=a+b;[m
+[32m+[m[32mconsole.log("Sum= "+c);[m
+\ No newline at end of file[m
+
+[33mcommit 105ae03fe04ce15b87ea7c108b8ea56276838a0f[m
+Author: CharlesNjau <nlwsolomon@gmail.com>
+Date:   Sun Nov 25 15:55:09 2018 +0300
+
+    Initial commit
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..37f9127[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# readme[m
+\ No newline at end of file[m
